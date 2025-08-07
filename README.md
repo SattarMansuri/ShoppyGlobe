@@ -1,12 +1,42 @@
-# React + Vite
+# 🛒 ShoppyGlobe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShoppyGlobe is a modern, responsive, and user-friendly e-commerce platform built using **React.js** and **Tailwind CSS**. It provides a seamless shopping experience with dynamic filtering, sorting, cart management, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🌐 Home page with featured products
+- 🔍 Product listing with search, category filter, and price range
+- ⭐ Sorting by popularity, rating, and price
+- 🛍️ Product detail view with image carousel
+- ➕ Add to cart / ➖ Remove from cart
+- 🧮 Real-time cart updates with quantity adjustment
+- 💡 Dark mode toggle (persisted using local storage)
+- 🔐 Redux state management with persistence
+- ⚡ Lazy loading for performance optimization
+- 📱 Fully responsive and mobile-first design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Tech             | Description                        |
+|------------------|------------------------------------|
+| React.js         | Frontend UI Library                |
+| Tailwind CSS     | Utility-first CSS framework        |
+| Redux Toolkit    | State management                   |
+| React Router DOM | Client-side routing                |
+| Axios            | API requests                       |
+| GSAP / Framer    | Animations and transitions         |
+| LocalStorage     | State persistence                  |
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/SattarMansuri/shoppyglobe.git
+cd shoppyglobe
+npm install
+npm run dev
