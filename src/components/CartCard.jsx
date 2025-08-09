@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaMinus, FaPlus } from 'react-icons/fa';
 import { MdDelete } from "react-icons/md";
 import { useDispatch } from 'react-redux';
-import { removeFromCart, updateCartQuantity } from '../store/counterSlice';
+import { removeFromCart, updateCartQuantity } from '../store/counterSlice'
 
 const CartCard = ({ id, title, image, price, quantity }) => {
    const dispatch = useDispatch()
